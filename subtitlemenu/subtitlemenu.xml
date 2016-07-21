@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="1.0" group="system" method="upgrade">
+
+    <name>PLG_SUBTITLEMENU_NAME</name>
+    <author>Patrick Andersen</author>
+    <creationDate>July 2016</creationDate>
+    <copyright>Copyright (C) 2016 Patrick Andersen. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>pocketpc_@outlook.com</authorEmail>
+    <authorUrl>github.com/pocketpc_</authorUrl>
+    <version>1.0.0</version>
+    <description>PLG_SUBTITLEMENU_DESCRIPTION</description>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_subtitlemenu.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_subtitlemenu.sys.ini</language>
+	</languages>
+
+    <files folder="plugins/system/subtitlemenu">
+        <file plugin="subtitlemenu">subtitlemenu.php</file>
+        <folder>language</folder>
+        <folder>params</folder>
+    </files>
+
+</extension>

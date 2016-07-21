@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="menu-options" label="PLG_SUBTITLEMENU_LABEL">
+            <field
+                name="subtitlemenu_subtitle"
+                type="text"
+                rows="1"
+                default="" size="22" label="PLG_SUBTITLEMENU_SUBTITLE_LABEL" description="PLG_SUBTITLEMENU_SUBTITLE_DESC"
+            />
+        </fieldset>
+    </fields>
+</form>
